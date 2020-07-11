@@ -1,0 +1,26 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Just My Simple Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemy-lazuardi/myPortfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Jemy Lazuardi Nur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jemy-lazuardi/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/jemy-lazuardi/myPortfolio#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
