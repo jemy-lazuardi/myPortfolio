@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+#header .fixed {
+    width: 33vw;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./assets/images/bg.jpg') rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+#header .fixed img {
+    width: 180px;
+}
+
+#header .fixed h3 {
+    font-size: 2rem;
+}
+
+#info .first-section h1 {
+    padding-top: 14rem;
+}
+
+#info .first-section p {
+    font-size: 1.5rem;
+}
+
+#info .first-section button {
+    font-size: 1.5rem;
+}
+
+#info .second-section h1 {
+    font-style: 2rem;
+}
+
+#info .third-section p {
+    font-size: 1rem;
+}
+
+#info .third-section .btn {
+    font-size: 1rem;
+}
+
+/* font Montserrat */
+.montserrat {
+    font-family: 'Montserrat', cursive;
+}
+
+/* font Lato */
+.lato {
+    font-family: 'Lato', cursive;
+}
+
+@media(max-width : 767px) {
+    #header .fixed {
+        position: relative;
+        width: 100%;
+        height: 100vw;
+        background-position: bottom;
+    }
+
+    #info .third-section .icon span {
+        margin: auto;
+        margin-left: 0;
+    }
+}
+
+
+@media(min-width : 768px) and (max-width: 1080px) {
+    #info .first-section h1 {
+        padding-top: 8rem;
+    }
+
+    #header .fixed h3 {
+        text-align: center;
+    }
+
+    #info .first-section p {
+        font-size: 1rem;
+    }
+
+    #info .first-section button {
+        font-size: 1rem;
+    }
+
+    #info .third-section .icon {
+        padding-left: 0;
+        font-size: 70%;
+        text-align: left;
+        vertical-align: middle;
+    }
+}
